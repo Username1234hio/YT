@@ -1,0 +1,10 @@
+body {
+  background: black;
+}
+p {
+  color: white;
+}
+a {
+  font-weight: bold;
+  color: aqua
+}
