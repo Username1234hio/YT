@@ -26,21 +26,11 @@ h3 {
 }
 body {
 background-color: #005A9C;
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  
+.parent{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
 }
 </style>
 <title align="center">THE LARSON MIDDLE SCHOOL NEWS WEBSITE</title>
@@ -63,16 +53,19 @@ background-color: #005A9C;
     they have been working in genius hour for the past 6 weeks collecting the creme of the creme of geniuses and putting them to the test with their
     skills in random facts. the final live show will take place on the 6th, 7th or 10th of march in the collabration studio</h4></center>
   <center><h4><WHO ARE WE/h4></center>
-  <div class="row">
-  <div class="column">
-    <img src="vivaan.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="sawyer.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="mason.jpg" alt="Mountains" style="width:100%">
-  </div>
+  <div class="parent">
+    <div>
+      <img src="image1.jpg">
+    </div>
+    <div>
+       <img src="image2.jpg">
+    </div>
+    <div>
+       <img src="image3.jpg">
+    </div>
+   <div>
+<img src="image4.jpg">
+</div>
 </div>
 </body>
 </html>
